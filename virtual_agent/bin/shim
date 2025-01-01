@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/benconway/elevenlabs-examples/examples/conversational-ai/nextjs/virtual_agent/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/benconway/elevenlabs-examples/examples/conversational-ai/nextjs/virtual_agent'
+export npm_config_prefix='/Users/benconway/elevenlabs-examples/examples/conversational-ai/nextjs/virtual_agent'
+exec 'virtual_agent/bin/node' "$@"

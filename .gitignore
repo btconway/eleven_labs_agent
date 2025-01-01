@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing and Coverage
+coverage/
+
+# Next.js
+.next/
+.next/cache/
+out/
+
+# Production
+/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+
+# Miscellaneous
+.DS_Store
+*.pem
+.eslintcache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug
+virtual_agent/bin/node
+virtual_agent/src/node-v23.5.0-darwin-arm64/bin/node
+
+# Vercel
+.vercel
